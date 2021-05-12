@@ -1,0 +1,8 @@
+{
+  "properties": [
+    {
+      "name": "calculation.interval-in-millis",
+      "type": "java.time.Duration",
+      "description": "Interval for calculation in millis."
+  }
+] }
