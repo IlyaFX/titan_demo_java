@@ -66,7 +66,7 @@ public class CalculationService implements ICalculationService {
             } catch (ScriptException | NoSuchMethodException e) {
                 // TODO: Send a short exception to client
             }
-            return new BenchRecord(value, fnId,result, Duration.between(start, Instant.now()));
+            return new BenchRecord(value, fnId, result, Duration.between(start, Instant.now()));
         });
     }
 
